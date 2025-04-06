@@ -1,69 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Mihir Kant Travel Vlogs</title>
 <style>
-       body {
-           font-family: Arial, sans-serif;
-           line-height: 1.6;
-           margin: 20px;
-           background-color: #f4f4f4;
-       }
-       header {
-           background: #333;
-           color: #fff;
-           padding: 10px 0;
-           text-align: center;
-       }
-       main {
-           margin-top: 20px;
-       }
-       .video {
-           margin-bottom: 20px;
-       }
-       iframe {
-           width: 100%;
-           max-width: 560px;
-           height: 315px;
-           border: none;
-       }
-       .channel-link {
-           display: inline-block;
-           margin-top: 10px;
-           padding: 10px 15px;
-           background: #333;
-           color: #fff;
-           text-decoration: none;
-           border-radius: 5px;
-       }
-       .channel-link:hover {
-           background: #555;
-       }
+   body {
+     font-family: 'Segoe UI', sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #f2f2f2;
+     color: #333;
+   }
+   header {
+     background-color: #0e76a8;
+     padding: 20px;
+     text-align: center;
+     color: white;
+   }
+   header img {
+     border-radius: 50%;
+     height: 100px;
+   }
+   h1 {
+     margin: 10px 0;
+   }
+   section {
+     padding: 20px;
+   }
+   .video-section iframe {
+     width: 100%;
+     max-width: 560px;
+     height: 315px;
+     margin: 10px auto;
+     display: block;
+   }
+   .donate {
+     text-align: center;
+     margin: 20px 0;
+   }
+   .donate a {
+     background-color: #ff9900;
+     padding: 10px 20px;
+     text-decoration: none;
+     color: white;
+     border-radius: 5px;
+   }
+   form {
+     background-color: white;
+     padding: 20px;
+     max-width: 400px;
+     margin: 20px auto;
+     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+   }
+   form input, form button {
+     width: 100%;
+     margin: 10px 0;
+     padding: 10px;
+   }
+   .destinations img {
+     width: 100%;
+     max-width: 400px;
+     border-radius: 10px;
+     margin-bottom: 10px;
+   }
 </style>
 </head>
 <body>
 <header>
+<img src="https://yt3.googleusercontent.com/XAFOa8w8ZzVKR_3G-WLCM0cOvvKzKnAs7XLihyEZ9H9SjbLzXlRIM_WcS3kCB7EjTWJEdTk62g=s176-c-k-c0x00ffffff-no-rj" alt="Mihir Kant">
 <h1>Mihir Kant Travel Vlogs</h1>
+<p><a href="https://youtube.com/@mihirkanttravelvlogs" style="color:white;">Watch us on YouTube</a></p>
 </header>
-<main>
-<section>
-<h2>Welcome to Mihir Kant Travel Vlogs</h2>
-<p>Join Mihir Kant on exhilarating journeys across the globe. Explore new destinations, cultures, and experiences through engaging travel vlogs.</p>
-<a class="channel-link" href="https://www.youtube.com/@mihirkanttravelvlogs" target="_blank">Visit YouTube Channel</a>
-</section>
-<section>
+<section class="video-section">
 <h2>Top Videos</h2>
-<div class="video">
-<h3>I Solo Travelled to Japan and it turns out to be the best trip</h3>
-<iframe src="https://www.youtube.com/embed/KFzWGChCB6s" allowfullscreen></iframe>
-</div>
-<div class="video">
-<h3>Corporate Offsite Mini Vlog</h3>
-<iframe src="https://www.youtube.com/embed/orNnWKqoXeI" allowfullscreen></iframe>
-</div>
+<iframe src="https://www.youtube.com/embed/BEqI6fxRNzM" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/-sPnVhBzy3Y" frameborder="0" allowfullscreen></iframe>
 </section>
-</main>
+<section class="donate">
+<h2>Support Our Travels</h2>
+<a href="https://www.buymeacoffee.com/mihirkant" target="_blank">Shower Your Love</a>
+<!-- or insert UPI QR image below -->
+<!-- <img src="your-qr-image-link" alt="Support Us via UPI" width="200"> -->
+</section>
+<section>
+<h2>Join Us On A Trip</h2>
+<form action="https://formsubmit.co/mihirkant21@gmail.com" method="POST">
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your Email" required>
+<button type="submit">Join the Adventure</button>
+</form>
+</section>
+<section class="destinations">
+<h2>Upcoming Mountain Destinations in India</h2>
+<h3>1. Manali, Himachal Pradesh</h3>
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Manali_valley.jpg" alt="Manali">
+<h3>2. Gulmarg, Kashmir</h3>
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Gulmarg_summer.jpg" alt="Gulmarg">
+<h3>3. Tawang, Arunachal Pradesh</h3>
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/92/Tawang_Monastery.jpg" alt="Tawang">
+<h3>4. Darjeeling, West Bengal</h3>
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Darjeeling_Town.jpg" alt="Darjeeling">
+<h3>5. Auli, Uttarakhand</h3>
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Auli_skiing.jpg" alt="Auli">
+</section>
 </body>
 </html>
